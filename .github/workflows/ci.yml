@@ -5,11 +5,13 @@ on:
     branches:
       - main
       - dev
+      - dev-angel
 
   pull_request:
     branches:
       - main
       - dev
+      - dev-angel
 
 jobs:
   laravel-tests:
